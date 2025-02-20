@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "item_id": 1,
+            "item_name": "patate",
+            "item_price": 5.1
+        },
+        {
+            "item_id": 2,
+            "item_name": "tomate",
+            "item_price": 6.1
+        },
+        {
+            "item_id": 3,
+            "item_name": "concombre",
+            "item_price": 2
+        },
+        {
+            "item_id": 4,
+            "item_name": "riz",
+            "item_price": 2.1
+        },
+        {
+            "item_id": 5,
+            "item_name": "patate diabolique",
+            "item_price": "6.66"
+        },
+        {
+            "item_id": 6,
+            "item_name": "patate diabolique",
+            "item_price": "6.66"
+        }
+    ]
+}
