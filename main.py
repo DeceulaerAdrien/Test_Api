@@ -11,17 +11,17 @@ app = FastAPI()
 
 JSON_DB = "db.json"
 
-# Initialize JSON database
+
 if not os.path.exists(JSON_DB):
     with open(JSON_DB, "w") as f:
         json.dump({"items": []}, f)
 
-# Read from JSON
+
 def read_json_db():
     with open(JSON_DB, "r") as f:
         return json.load(f)
 
-# Write to JSON
+
 def write_json_db(data):
     with open(JSON_DB, "w") as f:
         json.dump(data, f, indent=4)
